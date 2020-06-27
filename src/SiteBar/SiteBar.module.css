@@ -1,10 +1,11 @@
 
 .SiteBar {
+  width: 250px;
   height: 100%;
   font-size: 14px;
   color: white;
-  flex: 1.7;
   background-color:#3d3c4b;
+  box-shadow: 0px 1px 1px black;
 }
 
 .SiteBar img {
@@ -25,22 +26,24 @@
   margin-right: auto;
   align-content: center;
   border-radius: 200px;
-  height: 82px;
+  height: 75px;
 }
 
-.rang {
-  margin-top: 8px;
-  margin-bottom: 22px;
+.rang { 
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
-.users, .admins, .campany, .icon, .zayvki, .zadanya, .campanys, .exit {
+.users, .admins, .campany, .icon, .zayvki, .zadanya, .campanys {
   border-bottom: 1px solid gainsboro;
+  padding-bottom: 5px;
 }
 
 .spisok {
   display: flex;
-  margin: 20px 25px ;
+  margin: 12px 24px ;
   color: gray;
 }
 
@@ -50,8 +53,9 @@
   display: flex;
 }
 
-.hov {
-  padding: 10px;
+.hov {  
+  display: flex;
+  height: 40px;
 }
 
 .hov:hover {
@@ -59,14 +63,17 @@
 }
 
 
-.sel1 {
-  margin: 15px 15px ;
+.sel1 { 
+  width: 91%;
+  margin: 15px 12px ;
 }
 
 .sel {
+  margin-top: 9px;
+  margin-bottom: 18px;
   padding-left: 10px;
-  height: 40px;
-  border-radius: 15px;
+  height: 50px;
+  border-radius: 10px;
   width: 100%;
 }
 
@@ -75,7 +82,8 @@ option {
   margin: 10px 20px;
 }
 
-a {
+a { 
+  margin-left: 28px;
   text-decoration: none;
   color:white;
 }

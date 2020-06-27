@@ -28,7 +28,7 @@ const Campani = () => {
           </div>
           <div className={s.item}>
             <div className={s.user}>
-              user1
+              capitan
             </div>
             <div className={s.codeuser}>
               qwerty
@@ -39,7 +39,7 @@ const Campani = () => {
           </div>
           <div className={s.item}>
             <div className={s.user}>
-              user1
+              star
             </div>
             <div className={s.codeuser}>
               qwerty

@@ -12,13 +12,16 @@ const Admins = () => {
             Администраторы
           </div>
           <div className={s.button}>
-            <button>
+            <button onClick={}>
               добавить администратора
             </button>
           </div>
         </div>
         <div className={s.spisok}>
 
+        </div>
+        <div className={s.modul }>
+          модуль окно
         </div>
     </div>
   );
