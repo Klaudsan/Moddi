@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+
+}
+
+
+
+.Content {
+    background-color: green;
+    flex: 7;
+}
