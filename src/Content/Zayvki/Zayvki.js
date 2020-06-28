@@ -10,6 +10,7 @@ const Zayvki = () => {
         <div className={s.head}>
           Заявки на выполнение
         </div>
+          <div className={s.content}> 
         <div className={s.state}>
           <div className={s.status}>
             Статус
@@ -46,10 +47,11 @@ const Zayvki = () => {
             </select>
           </div>
         </div>
+          </div>
         <div className={s.spisok}>
           Список заданий пуст . . .
         </div>
-    </div>
+        </div>
   );
 };
 

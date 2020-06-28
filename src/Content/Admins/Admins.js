@@ -12,7 +12,7 @@ const Admins = () => {
             Администраторы
           </div>
           <div className={s.button}>
-            <button onClick={}>
+            <button >
               добавить администратора
             </button>
           </div>
