@@ -2,6 +2,7 @@
     flex: 7;
     display: flex;
     flex-direction: column;
+    background-image: url(./../../pic/pizdec.png);
 }
 
 
@@ -26,6 +27,7 @@
 }
 
 input {
+    opacity: 50%;
     font-size: 17px;
     padding-left: 10px;
     margin-left: 10px;
